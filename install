@@ -1,0 +1,7 @@
+apt update
+apt install binutils clang make tar
+
+tar xf proot.tar.gz
+cd proot/src
+
+make && make install
